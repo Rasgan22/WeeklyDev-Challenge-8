@@ -323,6 +323,11 @@ header {
 		}
 	}
 	#taylor {
+		.desc {
+			p {
+				line-height: 48px;
+			}
+		}
 		.photo {
 			background-image: url(/img/taylor_img.png);
 		}
@@ -597,7 +602,6 @@ footer {
 				flex-basis: 50%;
 				padding: 0;
 				margin: 0;
-				height: calc(300-6%);
 				.triangle {
 					display: block;
 				}
@@ -647,12 +651,6 @@ footer {
 		}
 		.employee:last-child {
 			margin-bottom: 10%;
-			.photo {
-				.border {
-					height: 74%;
-					margin-top: 8%;
-				}
-			}
 		}
 	}
 	#portfolio {
