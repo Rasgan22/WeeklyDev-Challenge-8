@@ -1,0 +1,642 @@
+/* line 2, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+html {
+  font-size: 62.5%; }
+
+/* line 5, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+/* line 11, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 14, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+.lower_wrap, .text, .numbers {
+  max-width: 1020px;
+  margin: 0 auto; }
+
+/* line 18, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+.higher_wrap, .employees .employee {
+  max-width: 1180px;
+  margin: 0 auto; }
+
+/* line 23, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+h1 {
+  font-size: 5.6rem; }
+
+/* line 26, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+h2 {
+  font-size: 4.8rem; }
+
+/* line 29, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+h3 {
+  font-size: 2.5rem; }
+
+/* line 32, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+h4 {
+  font-size: 1.8rem; }
+
+/* line 35, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+/* line 38, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+.text {
+  padding: 10% 3%;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF; }
+  /* line 43, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .text h4 {
+    font-weight: 300;
+    position: relative; }
+  /* line 47, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .text h4::before {
+    content: '';
+    width: 18%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    background-color: #FFFFFF; }
+  /* line 56, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .text h4::after {
+    content: '';
+    width: 18%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    background-color: #FFFFFF; }
+  /* line 65, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .text h2 {
+    text-transform: uppercase; }
+
+/* line 72, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+header nav {
+  height: 65px;
+  position: relative; }
+  /* line 75, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  header nav .logo {
+    background-image: url(/img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    height: 100%;
+    width: 100px;
+    margin: 0 3%; }
+  /* line 84, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  header nav .social-links {
+    visibility: hidden;
+    float: left; }
+  /* line 88, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  header nav .menu {
+    float: right;
+    width: 20%;
+    height: 65px;
+    position: relative;
+    margin: 0; }
+    /* line 94, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    header nav .menu .hamburger {
+      background: none;
+      position: absolute;
+      top: 0;
+      right: 3%;
+      line-height: 65px;
+      padding: 0px 15px 0px 15px;
+      color: #000000;
+      border: 0;
+      font-size: 2.5em;
+      font-weight: bold;
+      cursor: pointer;
+      outline: none;
+      z-index: 10; }
+    /* line 109, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    header nav .menu p {
+      color: #FFFFFF;
+      font-size: 1.8rem;
+      line-height: 65px;
+      text-transform: uppercase;
+      margin-top: 0;
+      padding-right: 50px;
+      display: none; }
+    /* line 118, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    header nav .menu ul {
+      clear: both;
+      display: none;
+      position: absolute;
+      top: 55px;
+      right: 0;
+      list-style-type: none;
+      z-index: 10; }
+      /* line 126, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+      header nav .menu ul li {
+        height: 40px;
+        width: inherit;
+        background-color: #000000;
+        width: 20vw; }
+        /* line 131, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+        header nav .menu ul li a {
+          text-decoration: none;
+          color: #FFFFFF;
+          line-height: 40px;
+          text-transform: uppercase; }
+
+/* line 141, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+header .jumbotron {
+  background-image: url(/img/jumbotron_background.png);
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  position: relative; }
+  /* line 146, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  header .jumbotron h3 {
+    font-weight: 300;
+    position: relative;
+    padding-top: 125px; }
+  /* line 151, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  header .jumbotron h3::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 10%;
+    top: 90%;
+    left: 7%;
+    background-color: #FFFFFF; }
+  /* line 160, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  header .jumbotron h3::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 10%;
+    top: 90%;
+    right: 7%;
+    background-color: #FFFFFF; }
+  /* line 169, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  header .jumbotron h1 {
+    text-transform: uppercase;
+    font-weight: 700; }
+  /* line 173, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  header .jumbotron .button {
+    display: inline-block;
+    width: 150px;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    padding: 1rem 1.5rem;
+    border: 2px solid #FFFFFF;
+    margin-top: 50px;
+    border-radius: 50px;
+    margin-bottom: 200px;
+    font-weight: 300;
+    position: relative; }
+  /* line 186, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  header .jumbotron .triangle {
+    background-image: url(/img/triangle_bottom.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 0;
+    height: 40px;
+    width: 10%;
+    position: absolute;
+    left: 45%;
+    top: 80%; }
+
+/* line 199, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+.numbers {
+  overflow: auto; }
+  /* line 202, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .numbers .bar {
+    position: relative;
+    margin: 0 auto; }
+    /* line 205, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    .numbers .bar .progress {
+      height: 200px;
+      width: 200px;
+      margin: 50px auto; }
+    /* line 211, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    .numbers .bar .progress > svg {
+      height: 100%;
+      display: block; }
+    /* line 215, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    .numbers .bar .progressbar-text {
+      font-size: 5rem;
+      font-weight: 700; }
+    /* line 219, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    .numbers .bar h3 {
+      position: absolute;
+      top: 65%;
+      left: 18%;
+      color: #454545;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 1.8rem; }
+    /* line 229, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    .numbers .bar #clients h3 {
+      left: 29%; }
+    /* line 234, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    .numbers .bar #months h3 {
+      left: 27%; }
+    /* line 238, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    .numbers .bar p {
+      font-size: 1.8rem;
+      margin-left: 20%;
+      margin-right: 20%;
+      color: #454545; }
+
+/* line 247, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+#team {
+  background-image: url(/img/team_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3%; }
+  /* line 252, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  #team h4::before {
+    width: 15%;
+    left: 18%; }
+  /* line 256, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  #team h4::after {
+    width: 15%;
+    right: 18%; }
+
+/* line 262, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+.employees .employee {
+  margin: 0 auto; }
+  /* line 265, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .employees .employee .desc {
+    position: relative;
+    margin: 10% 3% 0 3%;
+    border: 2px solid #000000;
+    border-bottom: none;
+    padding: 10% 3%; }
+    /* line 267, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    .employees .employee .desc .triangle {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 37.5px 35px 37.5px 0;
+      border-color: transparent #ffffff transparent transparent;
+      position: absolute;
+      top: 40%;
+      right: 100%;
+      display: none; }
+    /* line 282, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    .employees .employee .desc h2 {
+      text-transform: uppercase;
+      font-weight: 400; }
+    /* line 286, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    .employees .employee .desc h4 {
+      font-weight: 400;
+      padding-bottom: 20px;
+      background-image: url(/img/red_line.png);
+      background-repeat: no-repeat;
+      background-position: bottom; }
+    /* line 293, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    .employees .employee .desc p {
+      font-size: 2em;
+      color: #454545; }
+  /* line 298, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .employees .employee .photo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px; }
+    /* line 302, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    .employees .employee .photo .border {
+      height: 90%;
+      margin: 0 3% 10% 3%;
+      border: 2px solid #FFFFFF;
+      border-top: none; }
+
+/* line 311, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+.employees #adrianna .photo {
+  background-image: url(/img/adrianna_img.png); }
+
+/* line 316, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+.employees #olivia .photo {
+  background-image: url(/img/olivia_img.png); }
+
+/* line 321, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+.employees #thomas .photo {
+  background-image: url(/img/thomas_img.png); }
+
+/* line 326, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+.employees #taylor .photo {
+  background-image: url(/img/taylor_img.png); }
+
+/* line 331, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+#portfolio {
+  background-image: url(/img/portfolio_img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3%; }
+  /* line 337, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  #portfolio .text h4::before {
+    width: 10%;
+    left: 5%; }
+  /* line 341, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  #portfolio .text h4::after {
+    width: 10%;
+    right: 5%; }
+
+/* line 347, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+.projects {
+  overflow: auto; }
+  /* line 350, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .projects a img {
+    width: 50%;
+    float: left;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    opacity: 0.5;
+    transition-duration: 1.5s; }
+  /* line 360, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .projects a img:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    opacity: 1; }
+
+/* line 369, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+#brands {
+  background-image: url(/img/brands_img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3%; }
+  /* line 375, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  #brands .text h4::before {
+    width: 10%;
+    left: 18%; }
+  /* line 379, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  #brands .text h4::after {
+    width: 10%;
+    right: 18%; }
+
+/* line 385, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+.brand-logo {
+  overflow: auto;
+  padding: 40px 0; }
+  /* line 388, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .brand-logo .brand-img, .brand-logo #vw, .brand-logo #ubuntu, .brand-logo #ps, .brand-logo #dell, .brand-logo #ea, .brand-logo #intel, .brand-logo #kfc, .brand-logo #nivea, .brand-logo #hf2, .brand-logo #allegro, .brand-logo #ups, .brand-logo #wp {
+    height: 150px;
+    width: 33%;
+    border: 2px solid #F5F5F5;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    float: left;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    opacity: 0.3; }
+  /* line 402, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .brand-logo #vw {
+    background-image: url(/img/vw.png); }
+  /* line 406, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .brand-logo #ubuntu {
+    background-image: url(/img/ubuntu.png); }
+  /* line 409, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .brand-logo #ps {
+    background-image: url(/img/ps.png); }
+  /* line 412, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .brand-logo #dell {
+    background-image: url(/img/dell.png); }
+  /* line 415, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .brand-logo #ea {
+    background-image: url(/img/ea.png); }
+  /* line 418, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .brand-logo #intel {
+    background-image: url(/img/intel.png); }
+  /* line 421, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .brand-logo #kfc {
+    background-image: url(/img/kfc.png); }
+  /* line 424, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .brand-logo #nivea {
+    background-image: url(/img/nivea.png); }
+  /* line 427, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .brand-logo #hf2 {
+    background-image: url(/img/hf2.png); }
+  /* line 430, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .brand-logo #allegro {
+    background-image: url(/img/allegro.png); }
+  /* line 433, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .brand-logo #ups {
+    background-image: url(/img/ups.png); }
+  /* line 436, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .brand-logo #wp {
+    background-image: url(/img/wp.png); }
+
+/* line 441, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+footer {
+  background-color: #101010; }
+  /* line 443, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  footer .description, footer .our-team, footer .about, footer .contact {
+    padding-top: 50px; }
+    /* line 445, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    footer .description h2, footer .our-team h2, footer .about h2, footer .contact h2 {
+      font-weight: 200;
+      padding-bottom: 20px;
+      background-image: url(/img/green_line.png);
+      background-repeat: no-repeat;
+      background-position: bottom;
+      color: #FFFFFF; }
+    /* line 453, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    footer .description h4, footer .our-team h4, footer .about h4, footer .contact h4 {
+      color: #474747;
+      margin-top: 30px; }
+  /* line 464, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  footer .contact {
+    padding-bottom: 50px; }
+  /* line 468, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  footer p {
+    color: #474747;
+    font-size: 1.7em;
+    margin: 0;
+    padding-bottom: 20px; }
+
+@media screen and (min-width: 550px) {
+  /* line 478, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  header .jumbotron h3::before {
+    width: 20%;
+    left: 8%; }
+  /* line 482, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  header .jumbotron h3::after {
+    width: 20%;
+    right: 8%; }
+  /* line 490, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  #team .text h4::before {
+    left: 24%; }
+  /* line 493, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  #team .text h4::after {
+    right: 24%; }
+  /* line 500, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  #portfolio .text h4::before {
+    left: 20%;
+    width: 9%; }
+  /* line 504, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  #portfolio .text h4::after {
+    right: 20%;
+    width: 9%; }
+  /* line 512, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .projects a img {
+    width: 33.333%; }
+  /* line 519, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  #brands .text h4::before {
+    left: 29%;
+    width: 7%; }
+  /* line 523, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  #brands .text h4::after {
+    right: 29%;
+    width: 7%; }
+  /* line 530, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .brand-logo .brand-img, .brand-logo #vw, .brand-logo #ubuntu, .brand-logo #ps, .brand-logo #dell, .brand-logo #ea, .brand-logo #intel, .brand-logo #kfc, .brand-logo #nivea, .brand-logo #hf2, .brand-logo #allegro, .brand-logo #ups, .brand-logo #wp {
+    width: 25%; } }
+
+@media screen and (min-width: 992px) {
+  /* line 538, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  header nav .social-links {
+    visibility: visible;
+    line-height: 65px;
+    position: absolute;
+    left: 60%;
+    top: 10%; }
+    /* line 544, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    header nav .social-links img {
+      margin: 0 10px; }
+  /* line 548, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  header nav .menu {
+    background-color: #101010; }
+    /* line 550, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    header nav .menu .hamburger {
+      color: #FFFFFF;
+      left: 0; }
+    /* line 554, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    header nav .menu p {
+      display: block; }
+  /* line 560, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  header .jumbotron h3::before {
+    width: 10%;
+    left: 28%; }
+  /* line 564, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  header .jumbotron h3::after {
+    width: 10%;
+    right: 28%; }
+  /* line 570, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .numbers {
+    margin: 6% auto; }
+    /* line 572, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    .numbers .bar {
+      float: left;
+      width: 33.333%; }
+  /* line 579, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  #team .text h4::before {
+    left: 34%;
+    width: 10%; }
+  /* line 583, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  #team .text h4::after {
+    right: 34%;
+    width: 10%; }
+  /* line 589, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .employees {
+    margin: 0;
+    padding: 0; }
+    /* line 592, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    .employees .employee {
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      /* line 596, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+      .employees .employee .desc {
+        flex-basis: 50%;
+        padding: 0;
+        margin: 0;
+        height: calc(300-6%); }
+        /* line 601, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+        .employees .employee .desc .triangle {
+          display: block; }
+        /* line 604, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+        .employees .employee .desc h2 {
+          margin-top: 50px; }
+      /* line 608, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+      .employees .employee .photo {
+        flex-basis: 50%; }
+        /* line 610, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+        .employees .employee .photo .border {
+          margin-top: 30px;
+          border-top: 2px solid #FFFFFF;
+          height: 80%; }
+    /* line 618, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    .employees .employee:nth-child(even) .triangle {
+      border-width: 37.5px 0 37.5px 35px;
+      border-color: transparent transparent transparent #ffffff;
+      left: 100%; }
+    /* line 623, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    .employees .employee:nth-child(even) .desc {
+      border-right: none;
+      border-bottom: 2px solid #000000; }
+    /* line 628, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    .employees .employee:nth-child(even) .photo .border {
+      margin-left: 0; }
+    /* line 633, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    .employees .employee:nth-child(odd) {
+      flex-direction: row-reverse; }
+      /* line 635, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+      .employees .employee:nth-child(odd) .desc {
+        border-left: none;
+        border-bottom: 2px solid #000000; }
+      /* line 640, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+      .employees .employee:nth-child(odd) .photo .border {
+        margin-right: 0; }
+    /* line 645, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    .employees .employee:first-child {
+      margin-top: 10%; }
+    /* line 648, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    .employees .employee:last-child {
+      margin-bottom: 10%; }
+      /* line 651, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+      .employees .employee:last-child .photo .border {
+        height: 74%;
+        margin-top: 8%; }
+  /* line 660, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  #portfolio .text h4::before {
+    left: 33%;
+    width: 5%; }
+  /* line 664, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  #portfolio .text h4::after {
+    right: 33%;
+    width: 5%; }
+  /* line 672, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .projects a img {
+    width: 25%; }
+  /* line 679, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  #brands .text h4::before {
+    left: 39%;
+    width: 3%; }
+  /* line 683, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  #brands .text h4::after {
+    right: 39%;
+    width: 3%; }
+  /* line 690, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  .brand-logo .brand-img, .brand-logo #vw, .brand-logo #ubuntu, .brand-logo #ps, .brand-logo #dell, .brand-logo #ea, .brand-logo #intel, .brand-logo #kfc, .brand-logo #nivea, .brand-logo #hf2, .brand-logo #allegro, .brand-logo #ups, .brand-logo #wp {
+    width: 20%; }
+  /* line 696, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  footer .about-us .our-team {
+    width: 33%;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%; }
+  /* line 702, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  footer .about-us .about {
+    width: 33%;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%; }
+  /* line 708, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  footer .about-us .contact {
+    width: 33%;
+    float: left; } }
+
+/*# sourceMappingURL=main.css.map */
