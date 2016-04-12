@@ -80,7 +80,7 @@ header nav {
   position: relative; }
   /* line 75, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   header nav .logo {
-    background-image: url(/img/logo.png);
+    background-image: url(../img/logo.png);
     background-repeat: no-repeat;
     background-position: center;
     float: left;
@@ -146,7 +146,7 @@ header nav {
 
 /* line 141, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
 header .jumbotron {
-  background-image: url(/img/jumbotron_background.png);
+  background-image: url("../img/jumbotron_background.png");
   background-repeat: no-repeat;
   color: #FFFFFF;
   position: relative; }
@@ -192,7 +192,7 @@ header .jumbotron {
     position: relative; }
   /* line 186, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   header .jumbotron .triangle {
-    background-image: url(/img/triangle_bottom.png);
+    background-image: url("../img/triangle_bottom.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50% 0;
@@ -246,7 +246,7 @@ header .jumbotron {
 
 /* line 247, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
 #team {
-  background-image: url(/img/team_background.png);
+  background-image: url("../img/team_background.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 3%; }
@@ -288,7 +288,7 @@ header .jumbotron {
     .employees .employee .desc h4 {
       font-weight: 400;
       padding-bottom: 20px;
-      background-image: url(/img/red_line.png);
+      background-image: url("../img/red_line.png");
       background-repeat: no-repeat;
       background-position: bottom; }
     /* line 293, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
@@ -309,15 +309,15 @@ header .jumbotron {
 
 /* line 311, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
 .employees #adrianna .photo {
-  background-image: url(/img/adrianna_img.png); }
+  background-image: url("../img/adrianna_img.png"); }
 
 /* line 316, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
 .employees #olivia .photo {
-  background-image: url(/img/olivia_img.png); }
+  background-image: url("../img/olivia_img.png"); }
 
 /* line 321, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
 .employees #thomas .photo {
-  background-image: url(/img/thomas_img.png); }
+  background-image: url("../img/thomas_img.png"); }
 
 /* line 327, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
 .employees #taylor .desc p {
@@ -325,11 +325,11 @@ header .jumbotron {
 
 /* line 331, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
 .employees #taylor .photo {
-  background-image: url(/img/taylor_img.png); }
+  background-image: url("../img/taylor_img.png"); }
 
 /* line 336, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
 #portfolio {
-  background-image: url(/img/portfolio_img.png);
+  background-image: url("../img/portfolio_img.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 3%; }
@@ -365,7 +365,7 @@ header .jumbotron {
 
 /* line 374, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
 #brands {
-  background-image: url(/img/brands_img.png);
+  background-image: url("../img/brands_img.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 3%; }
@@ -398,40 +398,40 @@ header .jumbotron {
     opacity: 0.3; }
   /* line 407, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #vw {
-    background-image: url(/img/vw.png); }
+    background-image: url("../img/vw.png"); }
   /* line 411, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #ubuntu {
-    background-image: url(/img/ubuntu.png); }
+    background-image: url("../img/ubuntu.png"); }
   /* line 414, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #ps {
-    background-image: url(/img/ps.png); }
+    background-image: url("../img/ps.png"); }
   /* line 417, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #dell {
-    background-image: url(/img/dell.png); }
+    background-image: url("../img/dell.png"); }
   /* line 420, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #ea {
-    background-image: url(/img/ea.png); }
+    background-image: url("../img/ea.png"); }
   /* line 423, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #intel {
-    background-image: url(/img/intel.png); }
+    background-image: url("../img/intel.png"); }
   /* line 426, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #kfc {
-    background-image: url(/img/kfc.png); }
+    background-image: url("../img/kfc.png"); }
   /* line 429, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #nivea {
-    background-image: url(/img/nivea.png); }
+    background-image: url("../img/nivea.png"); }
   /* line 432, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #hf2 {
-    background-image: url(/img/hf2.png); }
+    background-image: url("../img/hf2.png"); }
   /* line 435, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #allegro {
-    background-image: url(/img/allegro.png); }
+    background-image: url("../img/allegro.png"); }
   /* line 438, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #ups {
-    background-image: url(/img/ups.png); }
+    background-image: url("../img/ups.png"); }
   /* line 441, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #wp {
-    background-image: url(/img/wp.png); }
+    background-image: url("../img/wp.png"); }
 
 /* line 446, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
 footer {
@@ -443,7 +443,7 @@ footer {
     footer .description h2, footer .our-team h2, footer .about h2, footer .contact h2 {
       font-weight: 200;
       padding-bottom: 20px;
-      background-image: url(/img/green_line.png);
+      background-image: url("../img/green_line.png");
       background-repeat: no-repeat;
       background-position: bottom;
       color: #FFFFFF; }

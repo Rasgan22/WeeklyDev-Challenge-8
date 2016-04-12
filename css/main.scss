@@ -73,7 +73,7 @@ header {
 		height: 65px;
 		position: relative;
 		.logo {
-			background-image: url(/img/logo.png);
+			background-image: url(../img/logo.png);
 			background-repeat: no-repeat;
 			background-position: center;
 			float: left;
@@ -139,7 +139,7 @@ header {
 		}
 	}
 	.jumbotron {
-		background-image: url(/img/jumbotron_background.png);
+		background-image: url('../img/jumbotron_background.png');
 		background-repeat: no-repeat;
 		color: #FFFFFF;
 		position: relative;
@@ -184,7 +184,7 @@ header {
 			position: relative;
 		}
 		.triangle {
-			background-image: url(/img/triangle_bottom.png);
+			background-image: url('../img/triangle_bottom.png');
 			background-repeat: no-repeat;
 			background-size: contain;
 			background-position: 50% 0;
@@ -245,7 +245,7 @@ header {
 
 }
 #team {
-	background-image: url(/img/team_background.png);
+	background-image: url('../img/team_background.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 3%;
@@ -286,7 +286,7 @@ header {
 			h4 {
 				font-weight: 400;
 				padding-bottom: 20px;
-				background-image: url(/img/red_line.png);
+				background-image: url('../img/red_line.png');
 				background-repeat: no-repeat;
 				background-position: bottom;
 			}
@@ -309,17 +309,17 @@ header {
 	}
 	#adrianna {
 		.photo {
-			background-image: url(/img/adrianna_img.png);
+			background-image: url('../img/adrianna_img.png');
 		}
 	}
 	#olivia {
 		.photo {
-			background-image: url(/img/olivia_img.png);
+			background-image: url('../img/olivia_img.png');
 		}
 	}
 	#thomas {
 		.photo {
-			background-image: url(/img/thomas_img.png);
+			background-image: url('../img/thomas_img.png');
 		}
 	}
 	#taylor {
@@ -329,12 +329,12 @@ header {
 			}
 		}
 		.photo {
-			background-image: url(/img/taylor_img.png);
+			background-image: url('../img/taylor_img.png');
 		}
 	}
 }
 #portfolio {
-	background-image: url(/img/portfolio_img.png);
+	background-image: url('../img/portfolio_img.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 3%;
@@ -372,7 +372,7 @@ header {
 	}
 }
 #brands {
-	background-image: url(/img/brands_img.png);
+	background-image: url('../img/brands_img.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 3%;
@@ -406,41 +406,41 @@ header {
 	}
 	#vw {
 		@extend .brand-img;
-		background-image: url(/img/vw.png);
+		background-image: url('../img/vw.png');
 	}
 	#ubuntu {
 		@extend .brand-img;
-		background-image: url(/img/ubuntu.png);
+		background-image: url('../img/ubuntu.png');
 	}#ps {
 		@extend .brand-img;
-		background-image: url(/img/ps.png);
+		background-image: url('../img/ps.png');
 	}#dell {
 		@extend .brand-img;
-		background-image: url(/img/dell.png);
+		background-image: url('../img/dell.png');
 	}#ea {
 		@extend .brand-img;
-		background-image: url(/img/ea.png);
+		background-image: url('../img/ea.png');
 	}#intel {
 		@extend .brand-img;
-		background-image: url(/img/intel.png);
+		background-image: url('../img/intel.png');
 	}#kfc {
 		@extend .brand-img;
-		background-image: url(/img/kfc.png);
+		background-image: url('../img/kfc.png');
 	}#nivea {
 		@extend .brand-img;
-		background-image: url(/img/nivea.png);
+		background-image: url('../img/nivea.png');
 	}#hf2 {
 		@extend .brand-img;
-		background-image: url(/img/hf2.png);
+		background-image: url('../img/hf2.png');
 	}#allegro {
 		@extend .brand-img;
-		background-image: url(/img/allegro.png);
+		background-image: url('../img/allegro.png');
 	}#ups {
 		@extend .brand-img;
-		background-image: url(/img/ups.png);
+		background-image: url('../img/ups.png');
 	}#wp {
 		@extend .brand-img;
-		background-image: url(/img/wp.png);
+		background-image: url('../img/wp.png');
 	}
 }
 footer {
@@ -450,7 +450,7 @@ footer {
 		h2 {
 			font-weight: 200;
 			padding-bottom: 20px;
-			background-image: url(/img/green_line.png);
+			background-image: url('../img/green_line.png');
 			background-repeat: no-repeat;
 			background-position: bottom;
 			color: #FFFFFF;
