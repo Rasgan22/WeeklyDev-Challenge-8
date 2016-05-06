@@ -246,30 +246,29 @@ header .jumbotron {
 
 /* line 247, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
 #team {
-  background-image: url("../img/team_background.png");
-  background-repeat: no-repeat;
+  background: url("../img/team_background.png") no-repeat;
   background-size: cover;
   padding: 3%; }
-  /* line 252, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 251, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   #team h4::before {
     width: 15%;
     left: 18%; }
-  /* line 256, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 255, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   #team h4::after {
     width: 15%;
     right: 18%; }
 
-/* line 262, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+/* line 261, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
 .employees .employee {
   margin: 0 auto; }
-  /* line 265, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 264, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .employees .employee .desc {
     position: relative;
     margin: 10% 3% 0 3%;
     border: 2px solid #000000;
     border-bottom: none;
     padding: 10% 3%; }
-    /* line 267, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    /* line 266, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
     .employees .employee .desc .triangle {
       width: 0;
       height: 0;
@@ -280,72 +279,72 @@ header .jumbotron {
       top: 40%;
       right: 100%;
       display: none; }
-    /* line 282, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    /* line 281, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
     .employees .employee .desc h2 {
       text-transform: uppercase;
       font-weight: 400; }
-    /* line 286, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    /* line 285, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
     .employees .employee .desc h4 {
       font-weight: 400;
       padding-bottom: 20px;
       background-image: url("../img/red_line.png");
       background-repeat: no-repeat;
       background-position: bottom; }
-    /* line 293, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    /* line 292, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
     .employees .employee .desc p {
       font-size: 2em;
       color: #454545; }
-  /* line 298, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 297, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .employees .employee .photo {
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px; }
-    /* line 302, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    /* line 301, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
     .employees .employee .photo .border {
       height: 90%;
       margin: 0 3% 10% 3%;
       border: 2px solid #FFFFFF;
       border-top: none; }
 
-/* line 311, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+/* line 310, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
 .employees #adrianna .photo {
   background-image: url("../img/adrianna_img.png"); }
 
-/* line 316, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+/* line 315, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
 .employees #olivia .photo {
   background-image: url("../img/olivia_img.png"); }
 
-/* line 321, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+/* line 320, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
 .employees #thomas .photo {
   background-image: url("../img/thomas_img.png"); }
 
-/* line 327, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+/* line 326, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
 .employees #taylor .desc p {
   line-height: 48px; }
 
-/* line 331, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+/* line 330, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
 .employees #taylor .photo {
   background-image: url("../img/taylor_img.png"); }
 
-/* line 336, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+/* line 335, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
 #portfolio {
   background-image: url("../img/portfolio_img.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 3%; }
-  /* line 342, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 341, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   #portfolio .text h4::before {
     width: 10%;
     left: 5%; }
-  /* line 346, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 345, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   #portfolio .text h4::after {
     width: 10%;
     right: 5%; }
 
-/* line 352, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+/* line 351, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
 .projects {
   overflow: auto; }
-  /* line 355, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 354, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .projects a img {
     width: 50%;
     float: left;
@@ -355,7 +354,7 @@ header .jumbotron {
     -moz-filter: grayscale(1);
     opacity: 0.5;
     transition-duration: 1.5s; }
-  /* line 365, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 364, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .projects a img:hover {
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
@@ -363,26 +362,26 @@ header .jumbotron {
     -moz-filter: grayscale(0);
     opacity: 1; }
 
-/* line 374, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+/* line 373, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
 #brands {
   background-image: url("../img/brands_img.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 3%; }
-  /* line 380, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 379, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   #brands .text h4::before {
     width: 10%;
     left: 18%; }
-  /* line 384, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 383, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   #brands .text h4::after {
     width: 10%;
     right: 18%; }
 
-/* line 390, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+/* line 389, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
 .brand-logo {
   overflow: auto;
   padding: 40px 0; }
-  /* line 393, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 392, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo .brand-img, .brand-logo #vw, .brand-logo #ubuntu, .brand-logo #ps, .brand-logo #dell, .brand-logo #ea, .brand-logo #intel, .brand-logo #kfc, .brand-logo #nivea, .brand-logo #hf2, .brand-logo #allegro, .brand-logo #ups, .brand-logo #wp {
     height: 150px;
     width: 33%;
@@ -396,50 +395,50 @@ header .jumbotron {
     -ms-filter: grayscale(1);
     -moz-filter: grayscale(1);
     opacity: 0.3; }
-  /* line 407, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 406, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #vw {
     background-image: url("../img/vw.png"); }
-  /* line 411, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 410, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #ubuntu {
     background-image: url("../img/ubuntu.png"); }
-  /* line 414, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 413, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #ps {
     background-image: url("../img/ps.png"); }
-  /* line 417, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 416, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #dell {
     background-image: url("../img/dell.png"); }
-  /* line 420, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 419, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #ea {
     background-image: url("../img/ea.png"); }
-  /* line 423, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 422, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #intel {
     background-image: url("../img/intel.png"); }
-  /* line 426, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 425, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #kfc {
     background-image: url("../img/kfc.png"); }
-  /* line 429, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 428, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #nivea {
     background-image: url("../img/nivea.png"); }
-  /* line 432, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 431, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #hf2 {
     background-image: url("../img/hf2.png"); }
-  /* line 435, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 434, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #allegro {
     background-image: url("../img/allegro.png"); }
-  /* line 438, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 437, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #ups {
     background-image: url("../img/ups.png"); }
-  /* line 441, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 440, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo #wp {
     background-image: url("../img/wp.png"); }
 
-/* line 446, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+/* line 445, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
 footer {
   background-color: #101010; }
-  /* line 448, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 447, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   footer .description, footer .our-team, footer .about, footer .contact {
     padding-top: 50px; }
-    /* line 450, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    /* line 449, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
     footer .description h2, footer .our-team h2, footer .about h2, footer .contact h2 {
       font-weight: 200;
       padding-bottom: 20px;
@@ -447,14 +446,14 @@ footer {
       background-repeat: no-repeat;
       background-position: bottom;
       color: #FFFFFF; }
-    /* line 458, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    /* line 457, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
     footer .description h4, footer .our-team h4, footer .about h4, footer .contact h4 {
       color: #474747;
       margin-top: 30px; }
-  /* line 469, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 468, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   footer .contact {
     padding-bottom: 50px; }
-  /* line 473, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 472, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   footer p {
     color: #474747;
     font-size: 1.7em;
@@ -462,178 +461,178 @@ footer {
     padding-bottom: 20px; }
 
 @media screen and (min-width: 550px) {
-  /* line 483, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 482, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   header .jumbotron h3::before {
     width: 20%;
     left: 8%; }
-  /* line 487, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 486, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   header .jumbotron h3::after {
     width: 20%;
     right: 8%; }
-  /* line 495, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 494, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   #team .text h4::before {
     left: 24%; }
-  /* line 498, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 497, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   #team .text h4::after {
     right: 24%; }
-  /* line 505, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 504, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   #portfolio .text h4::before {
     left: 20%;
     width: 9%; }
-  /* line 509, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 508, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   #portfolio .text h4::after {
     right: 20%;
     width: 9%; }
-  /* line 517, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 516, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .projects a img {
     width: 33.333%; }
-  /* line 524, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 523, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   #brands .text h4::before {
     left: 29%;
     width: 7%; }
-  /* line 528, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 527, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   #brands .text h4::after {
     right: 29%;
     width: 7%; }
-  /* line 535, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 534, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo .brand-img, .brand-logo #vw, .brand-logo #ubuntu, .brand-logo #ps, .brand-logo #dell, .brand-logo #ea, .brand-logo #intel, .brand-logo #kfc, .brand-logo #nivea, .brand-logo #hf2, .brand-logo #allegro, .brand-logo #ups, .brand-logo #wp {
     width: 25%; } }
 
 @media screen and (min-width: 992px) {
-  /* line 543, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 542, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   header nav .social-links {
     visibility: visible;
     line-height: 65px;
     position: absolute;
     left: 60%;
     top: 10%; }
-    /* line 549, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    /* line 548, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
     header nav .social-links img {
       margin: 0 10px; }
-  /* line 553, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 552, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   header nav .menu {
     background-color: #101010; }
-    /* line 555, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    /* line 554, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
     header nav .menu .hamburger {
       color: #FFFFFF;
       left: 0; }
-    /* line 559, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    /* line 558, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
     header nav .menu p {
       display: block; }
-  /* line 565, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 564, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   header .jumbotron h3::before {
     width: 10%;
     left: 28%; }
-  /* line 569, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 568, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   header .jumbotron h3::after {
     width: 10%;
     right: 28%; }
-  /* line 575, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 574, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .numbers {
     margin: 6% auto; }
-    /* line 577, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    /* line 576, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
     .numbers .bar {
       float: left;
       width: 33.333%; }
-  /* line 584, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 583, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   #team .text h4::before {
     left: 34%;
     width: 10%; }
-  /* line 588, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 587, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   #team .text h4::after {
     right: 34%;
     width: 10%; }
-  /* line 594, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 593, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .employees {
     margin: 0;
     padding: 0; }
-    /* line 597, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    /* line 596, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
     .employees .employee {
       display: flex;
       flex-direction: row;
       align-items: center; }
-      /* line 601, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+      /* line 600, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
       .employees .employee .desc {
         flex-basis: 50%;
         padding: 0;
         margin: 0; }
-        /* line 605, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+        /* line 604, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
         .employees .employee .desc .triangle {
           display: block; }
-        /* line 608, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+        /* line 607, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
         .employees .employee .desc h2 {
           margin-top: 50px; }
-      /* line 612, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+      /* line 611, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
       .employees .employee .photo {
         flex-basis: 50%; }
-        /* line 614, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+        /* line 613, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
         .employees .employee .photo .border {
           margin-top: 30px;
           border-top: 2px solid #FFFFFF;
           height: 80%; }
-    /* line 622, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    /* line 621, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
     .employees .employee:nth-child(even) .triangle {
       border-width: 37.5px 0 37.5px 35px;
       border-color: transparent transparent transparent #ffffff;
       left: 100%; }
-    /* line 627, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    /* line 626, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
     .employees .employee:nth-child(even) .desc {
       border-right: none;
       border-bottom: 2px solid #000000; }
-    /* line 632, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    /* line 631, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
     .employees .employee:nth-child(even) .photo .border {
       margin-left: 0; }
-    /* line 637, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    /* line 636, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
     .employees .employee:nth-child(odd) {
       flex-direction: row-reverse; }
-      /* line 639, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+      /* line 638, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
       .employees .employee:nth-child(odd) .desc {
         border-left: none;
         border-bottom: 2px solid #000000; }
-      /* line 644, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+      /* line 643, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
       .employees .employee:nth-child(odd) .photo .border {
         margin-right: 0; }
-    /* line 649, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    /* line 648, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
     .employees .employee:first-child {
       margin-top: 10%; }
-    /* line 652, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+    /* line 651, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
     .employees .employee:last-child {
       margin-bottom: 10%; }
-  /* line 658, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 657, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   #portfolio .text h4::before {
     left: 33%;
     width: 5%; }
-  /* line 662, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 661, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   #portfolio .text h4::after {
     right: 33%;
     width: 5%; }
-  /* line 670, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 669, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .projects a img {
     width: 25%; }
-  /* line 677, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 676, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   #brands .text h4::before {
     left: 39%;
     width: 3%; }
-  /* line 681, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 680, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   #brands .text h4::after {
     right: 39%;
     width: 3%; }
-  /* line 688, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 687, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   .brand-logo .brand-img, .brand-logo #vw, .brand-logo #ubuntu, .brand-logo #ps, .brand-logo #dell, .brand-logo #ea, .brand-logo #intel, .brand-logo #kfc, .brand-logo #nivea, .brand-logo #hf2, .brand-logo #allegro, .brand-logo #ups, .brand-logo #wp {
     width: 20%; }
-  /* line 694, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 693, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   footer .about-us .our-team {
     width: 33%;
     float: left;
     padding-left: 5%;
     padding-right: 5%; }
-  /* line 700, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 699, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   footer .about-us .about {
     width: 33%;
     float: left;
     padding-left: 5%;
     padding-right: 5%; }
-  /* line 706, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
+  /* line 705, E:/Brackets/WeeklyDev Challange #8/css/main.scss */
   footer .about-us .contact {
     width: 33%;
     float: left; } }

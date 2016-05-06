@@ -245,8 +245,7 @@ header {
 
 }
 #team {
-	background-image: url('../img/team_background.png');
-	background-repeat: no-repeat;
+	background: url('../img/team_background.png') no-repeat;
 	background-size: cover;
 	padding: 3%;
 	h4::before {
